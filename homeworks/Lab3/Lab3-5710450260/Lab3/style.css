@@ -1,0 +1,90 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+body {
+	width:100%;
+    background-image: url("nY.jpeg");
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:!important;
+	background-attachment:fixed;
+}
+.bbody {
+	font : 12px/17px tahoma, arial;
+	/*background-color:#CCC;*/
+	background :rgba(185,185,185, 0.5);
+	text-align : center;
+	border-radius:9px;
+}
+.borderforms{
+	width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.borderselect{
+	width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button{
+	 width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	border-radius: 9px;
+}
+
+.button:hover{
+    background-color: #45a049;
+}
+.buttonCancel{
+	 width: 100%;
+    background-color:#CCC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+.buttonCancel:hover{
+	 background-color:#999;
+}
+.buttonSave{
+	width: 100%;
+    background-color:#FC6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	position:right;
+}
+.buttonSave:hover{
+	 background-color:#FCC;
+}
+.serif {
+    font:bold 1.5em Arial, Helvetica, sans-serif;
+}
