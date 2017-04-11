@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body { 
+/*font-family: OCR A Std;
+/*font-family:Segoe Print;*/
+/*font-size: 18px;
+//color: chocolate;*/
+background-image:url(bg2.jpg); 
+background-attachment:fixed;
+background-repeat:no-repeat;
+
+background-resize:;
+background-position:!important;
+background-attachment:fixed;
+/*text-align: center;*/
+}
+.bbody {
+	font : 12px/17px tahoma, arial;
+	/*background-color:#CCC;*/
+	background :rgba(185,185,185, 0.5);
+	text-align : center;
+	border-radius:9px;
+}
+.input {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button{
+	 width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+   
+    cursor: pointer;
+	border-radius: 9px;
+}
+
+.button:hover{
+    background-color: #45a049;
+}
+.buttonCancel{
+	 width: 100%;
+    background-color:#CCC;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+	
+}
+.buttonCancel:hover{
+	 background-color:#999;
+}
+.buttonSave{
+	width: 100%;
+    background-color:#FC6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	position:right;
+}
+.buttonSave:hover{
+	 background-color:#FCC;
+}
